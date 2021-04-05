@@ -1,0 +1,115 @@
+#navbar{
+    flex-direction: column;
+    position: sticky;
+}
+.h-primery-center{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 6px;
+    padding-bottom: 7px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#home {
+    height: 505px;
+    padding: 0px 34px;
+}
+
+#home::before{
+    font-size: 500px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#home p{
+    font-size: 17px;
+}
+
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Clients section */
+.clients{
+    flex-wrap: wrap;
+}
+
+.clients img{
+    width: 50px;
+     
+}
+
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+.secondery-center{
+    font-size: 1.4rem;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+}
+.clint-header{
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
+#contact-box input{
+    margin: -1px -16px;
+}
+.clients{
+    display: flex;
+}
+
+#contact{
+    position: initial;
+     height:100%
+}
+#contact::before{
+    margin: 0px;
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.37;
+}
+/* footer{
+    position: relative;
+    bottom: 0;
+} */
+
+footer{
+    position: relative;
+    /* bottom: -2vh; */
+}
+ 
+
+ 
+ 

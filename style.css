@@ -1,0 +1,340 @@
+*{
+    margin : 0px;
+    padding: 0px;
+}
+ 
+/*Navbar*/
+#navbar{
+    display:flex;
+    align-items: center;
+    top: 0px;
+    position: sticky;
+}
+/*giving bakgrounds*/
+ 
+#navbar::before{
+    content:"";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 93%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation logo */
+#logo{
+    margin: 8px 36px;
+}
+
+#logo img{
+    height: 64px;
+    margin: 3px 9px;
+}
+
+#navbar ul{
+    display:flex;
+    font-size: 1.4rem;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: #fff;
+    display:block;
+    padding: 9px 25px;
+    border-radius: 21px;
+    text-decoration: none;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/*Home section*/
+
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 201px;
+    height: 535px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #home::before{ 
+    content: "";
+    position: absolute;
+    background: url('https://i.pinimg.com/originals/b0/43/c1/b043c1be7ed0d4f085e356e159250c69.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+}
+
+#home h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#home p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+    
+}
+.btn{
+
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 11px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+/* Service Section*/
+.h-primery-center{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.secondery-center{
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    padding: 12px;
+    text-align: center;
+}
+#services{
+    margin: 39px;
+    display: flex;
+    
+}
+
+#services .box{
+    /* display: flex; */
+    width: 34%;
+    border: 3px solid brown;
+    padding: 18px;
+    margin: -7px 24px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+}
+
+#services .box img{
+    /* display: flex; */
+    /* position: absolute; */
+    width: 25%;
+    margin: auto;
+    display: block;
+    
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+
+} 
+
+
+/* .section-header h1{
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%
+}
+
+.clients {
+    padding: 60px 0
+}
+
+.clients .clients-wrap {
+    border-top: 1px solid #d6eaff;
+    border-left: 1px solid #d6eaff;
+    margin-bottom: 30px
+}
+
+#clients .client-logo {
+    padding: 64px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #d6eaff;
+    border-bottom: 1px solid #d6eaff;
+    overflow: hidden;
+    background: #fff;
+    height: 160px
+} */
+
+/* #clients img {
+    transition: all 0.4s ease-in-out
+} */
+
+
+
+
+/*clients information*/
+.clint-header{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    /* position: relative; */
+}
+.clients{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+#clint-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://i.pinimg.com/736x/49/1a/92/491a924f10d7988a9ab2d3ff4f7121c8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+    opacity: 0.8;
+     
+}
+.clients img{
+    height: 68px;
+    padding: 23px;
+    /* clip-path: circle(50% at 50% 50%); */
+}
+ 
+
+/* #clint-section{
+    position: relative;
+} */
+
+/*back ground*/
+/* #clint-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://i.pinimg.com/736x/49/1a/92/491a924f10d7988a9ab2d3ff4f7121c8.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+     
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item{
+    padding: 23px;
+}
+
+.clients img{
+    height: 68px;
+    clip-path: circle(50% at 50% 50%);
+}  */
+
+/* contact details*/
+
+#contact{
+    position: relative;
+     
+}
+
+#contact::before{
+    margin: 0px;
+    content:"";
+    position: absolute;
+    background: url('https://st.depositphotos.com/1265075/4570/i/600/depositphotos_45700477-stock-photo-website-contact-green-icons.jpg')no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.37;
+}
+
+#contact-box{
+    display:flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+input[type="text"],input[type="email"],input[type="number"]{
+     
+    width: 100%;
+    font-size: 1.3rem;
+    border-radius: 11px;
+    padding: 1rem;;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box p{
+    padding: -2px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+input[type="submit"]
+{
+    width: 93px;
+    padding: 5px;
+    background-color: rgb(126, 251, 255);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+footer {
+    
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+ 
